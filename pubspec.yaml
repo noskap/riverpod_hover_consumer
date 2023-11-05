@@ -1,6 +1,6 @@
 name: riverpod_hover_consumer
 description: A Flutter widget that provides a hover state for a Consumer Widget.
-version: 1.0.0
+version: 1.0.1
 homepage: 'https://github.com/noskap/riverpod_hover_consumer'
 
 environment:

@@ -29,13 +29,13 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           body: Center(
             child: RiverpodHoverConsumer(
-              builder: (context, ref, isHovering) {
+              builder: (BuildContext context, WidgetRef ref, bool isHovering) {
                 return Text(
                   isHovering ? 'Hello, World!' : 'Hover over me',
                   style: TextStyle(fontSize: 32),
                 );
               },
-              onTap: (context, ref, isHovering) {
+              onTap: (BuildContext context, WidgetRef ref, bool isHovering) {
                 print('You tapped me');
               },
             ),
